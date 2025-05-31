@@ -1,1 +1,0 @@
-DOMAIN = "beem_integration"
