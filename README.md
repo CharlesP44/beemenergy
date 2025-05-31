@@ -72,3 +72,36 @@ Merci à la communauté HACF pour les échanges et en particulier à @jrvrcd pou
 ## 📄 Licence
 
 Ce projet est distribué sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d’informations.
+
+---
+
+## 📊 Tableau de bord Lovelace (optionnel)
+
+Un tableau de bord Lovelace personnalisé est disponible pour visualiser les données de votre batterie Beem.
+
+### 🧩 Carte Power Flow (requis)
+
+La visualisation utilise la carte personnalisée **Power Flow Card Plus**, disponible via HACS.
+
+### Installation via HACS :
+
+1. Ouvrez HACS > Frontend.
+2. Recherchez **Power Flow Card Plus**.
+3. Cliquez sur "Installer" puis redémarrez Home Assistant si nécessaire.
+
+> ℹ️ Pour plus d’infos : [Power Flow Card Plus sur GitHub](https://github.com/Topix90/power-flow-card-plus)
+
+#### 🔧 Installation
+
+1. Allez dans **Paramètres > Tableaux de bord > Ajouter un tableau de bord**.
+2. Cliquez sur **Configurer via YAML** (ou utilisez un *dashboard existant*).
+3. Copiez-collez le contenu du fichier [`lovelace_dashboard.yaml`](./lovelace_dashboard.yaml) fourni dans le dépôt.
+4. Ajustez les noms des entités si nécessaire (selon votre configuration Home Assistant).
+
+> 💡 Le tableau de bord a été conçu pour une batterie Beem. Vous pouvez bien sûr l’adapter selon vos besoins.
+
+---
+
+### Aperçu
+
+![aperçu lovelace](./screenshots/lovelace_preview.png)
