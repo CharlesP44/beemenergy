@@ -1,5 +1,6 @@
 # beemenergy
-# 🐝 Beem Energy - Intégration Home Assistant
+# ![image](https://github.com/user-attachments/assets/1373b66d-3dfc-4d42-b76e-ec2e4c5ae319)
+ Beem Energy - Intégration Home Assistant
 
 Intégration personnalisée pour [Home Assistant](https://www.home-assistant.io/) permettant de connecter les équipements Beem Energy (batterie, panneaux solaires, prises connectées, etc.) à votre installation domotique.
 
