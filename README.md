@@ -1,4 +1,5 @@
-# ![image](https://github.com/user-attachments/assets/c42b3ca3-a681-4091-a13c-f2d0f8f4fc9c) Beem Energy - Intégration Home Assistant 
+# ![image](https://github.com/user-attachments/assets/c42b3ca3-a681-4091-a13c-f2d0f8f4fc9c) Beem Energy - Intégration Home Assistant ![image](https://github.com/user-attachments/assets/b16dce18-3b0b-4108-9b37-4ebd67372f71)
+ 
 Intégration **non officielle** permettant de connecter les équipements **Beem Energy** à Home Assistant.
 
 
