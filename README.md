@@ -8,9 +8,13 @@ Intégration **non officielle** permettant de connecter les équipements **Beem 
 ---
 ## ⚙️ Fonctionnalités / ## ✨ Fonctionnalités
 ☀️ Détection et détails des équipements solaires connectés
+
 📊 Récupération automatique des données live toutes les 60 secondes
+
 🔋 Affichage de la capacité, charge, production, consommation
+
 🔐 Stockage sécurisé du mot de passe dans Home Assistant
+
 🔁 Rafraîchissement automatique du token expiré
 
 
