@@ -1,23 +1,21 @@
 # beemenergy
-# ![image](https://github.com/user-attachments/assets/1373b66d-3dfc-4d42-b76e-ec2e4c5ae319)
  Beem Energy - Intégration Home Assistant
 
-Intégration personnalisée pour [Home Assistant](https://www.home-assistant.io/) permettant de connecter les équipements Beem Energy (batterie, panneaux solaires, prises connectées, etc.) à votre installation domotique.
+Intégration **non officielle** permettant de connecter les équipements **Beem Energy** à Home Assistant.
+
 
 > ⚠️ Actuellement, seule la **batterie Beem** est pleinement testée. D'autres équipements sont en cours de validation.
 
 ---
+## ⚙️ Fonctionnalités / ## ✨ Fonctionnalités
+☀️ Détection et détails des équipements solaires connectés
+📊 Récupération automatique des données live toutes les 60 secondes
+🔋 Affichage de la capacité, charge, production, consommation
+🔐 Stockage sécurisé du mot de passe dans Home Assistant
+🔁 Rafraîchissement automatique du token expiré
 
-## ✨ Fonctionnalités
 
-- Récupération des données en temps réel de la batterie Beem :
-  - État de charge
-  - Puissance entrante/sortante
-  - Historique de production/consommation
-- Rafraîchissement automatique des données
-- Gestion de l’authentification avec renouvellement du token
 
----
 
 ## 🚧 État actuel
 
@@ -28,29 +26,42 @@ Cette intégration est en cours de développement et nécessite des retours de l
 
 ---
 
-## 🛠️ Installation
-
+## 🛠️ Installation / 🧰 Installation via HACS
 ### 1. Via HACS (recommandé à terme)
-> Pas encore disponible via le store HACS officiel.
+Pas encore disponible via le store HACS officiel.
 
-### 2. Installation manuelle
+### 2. Via HACS (Dépôts personnalisés)
+1. Ouvrez HACS dans Home Assistant
+2. Cliquez sur Intégrations puis sur les 3 points en haut à droite
+3. Sélectionnez Dépôts personnalisés
+4. Entrez : https://github.com/<TON_COMPTE>/<TON_REPO>
+   Type : Intégration
+5. Une fois ajouté, recherchez **Beem Energy** dans HACS et installez-le
+6. Redémarrez Home Assistant
 
+### 3. Installation manuelle
 1. Téléchargez les fichiers de ce dépôt.
 2. Copiez le dossier `beem_integration` dans le répertoire `custom_components/` de votre instance Home Assistant.
 3. Redémarrez Home Assistant.
-4. Ajoutez l’intégration via **Paramètres > Appareils et services > Ajouter une intégration** puis cherchez **Beem Energy**.
+5. Ajoutez l’intégration via **Paramètres > Appareils et services > Ajouter une intégration** puis cherchez **Beem Energy**.
 
 ---
 
-## 🔐 Configuration
+## 🔐 Configuration / 🔧 Configuration
+1. Allez dans Paramètres > Appareils & Services
+2. Cliquez sur Ajouter une intégration
+3. Recherchez Beem Energy
+4. Saisissez 
+   - Votre **adresse email** utilisée sur l’application Beem
+   - Votre **mot de passe** utilisée sur l’application Beem
 
-L'intégration nécessite :
-- Votre **adresse email** utilisée sur l’application Beem
-- Votre **mot de passe** utilisée sur l’application Beem
-
-Ces informations sont utilisées uniquement pour récupérer un **token d’accès sécurisé** et ne sont pas stockées localement.
+⚠️ Remarque : votre token d’authentification est renouvelé automatiquement si expiré.
 
 ---
+
+## 👨‍💻 Codeowners & Développement
+🧑‍💻 Auteur : @CharlesP44
+
 
 ## 🧪 Tests & retours
 
@@ -72,8 +83,16 @@ Merci à la communauté HACF pour les échanges et en particulier à @jrvrcd pou
 ## 📄 Licence
 
 Ce projet est distribué sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d’informations.
+**Il n’est pas affilié officiellement à Beem Energy.**
 
 ---
+
+
+
+
+
+
+
 
 ## 📊 Tableau de bord Lovelace (optionnel)
 
