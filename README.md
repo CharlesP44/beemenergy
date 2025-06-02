@@ -1,4 +1,4 @@
-# Beem Energy - Intégration Home Assistant
+# [favicon](https://beem.energy/icons/favicon.ico) Beem Energy - Intégration Home Assistant
 Intégration **non officielle** permettant de connecter les équipements **Beem Energy** à Home Assistant.
 
 
