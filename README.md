@@ -80,6 +80,7 @@ Merci à la communauté HACF pour les échanges et en particulier à @jrvrcd pou
 ## 📄 Licence
 
 Ce projet est distribué sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus d’informations.
+
 **Il n’est pas affilié officiellement à Beem Energy.**
 
 ---
