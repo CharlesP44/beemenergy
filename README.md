@@ -1,6 +1,4 @@
-# beemenergy
- Beem Energy - Intégration Home Assistant
-
+# Beem Energy - Intégration Home Assistant
 Intégration **non officielle** permettant de connecter les équipements **Beem Energy** à Home Assistant.
 
 
@@ -13,8 +11,6 @@ Intégration **non officielle** permettant de connecter les équipements **Beem 
 🔋 Affichage de la capacité, charge, production, consommation
 🔐 Stockage sécurisé du mot de passe dans Home Assistant
 🔁 Rafraîchissement automatique du token expiré
-
-
 
 
 ## 🚧 État actuel
