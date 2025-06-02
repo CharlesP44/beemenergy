@@ -17,7 +17,7 @@ Intégration **non officielle** permettant de connecter les équipements **Beem 
 ## 🚧 État actuel
 
 Cette intégration est en cours de développement et nécessite des retours de la communauté, notamment pour :
-- Tester avec d’autres produits Beem (panneaux, prises, etc.)
+- Tester avec d’autres produits Beem (Panneaux PnP, Energy Switch, etc.)
 - Remonter les bugs ou comportements inattendus
 - Suggérer des améliorations
 
