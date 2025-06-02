@@ -2,6 +2,8 @@
  
 Intégration **non officielle** permettant de connecter les équipements **Beem Energy** à Home Assistant.
 
+[![Buy Me a Coffee](https://img.shields.io/badge/buymeacoffee-donate-yellow.svg?logo=buymeacoffee)](https://www.buymeacoffee.com/CharlesP44)
+
 
 > ⚠️ Actuellement, seule la **batterie Beem** est pleinement testée. D'autres équipements sont en cours de validation.
 
@@ -89,6 +91,13 @@ Ce projet est distribué sous la licence MIT. Voir le fichier [LICENSE](LICENSE)
 
 ---
 
+## ☕ Support
+
+Si vous aimez cette intégration, vous pouvez me soutenir :
+
+[![Buy Me a Coffee](https://img.shields.io/badge/buymeacoffee-donate-yellow.svg?logo=buymeacoffee)](https://www.buymeacoffee.com/CharlesP44)
+
+Merci ! 🙏
 
 
 
